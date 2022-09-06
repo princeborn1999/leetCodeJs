@@ -11,8 +11,12 @@ var removeElement = function (nums, val) {
       arr.splice(arr.indexOf(a),1);      
     }
   }
+  arr = arr.toString();
+  console.log(arr);
+  arr = arr.split(",");
   console.log(arr);
   return(arr);
 };
+//先用string 資料處理
 
 removeElement([2,3,3,2], 2);
