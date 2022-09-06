@@ -1,0 +1,18 @@
+var mergeTwoLists = function(list1, list2) {
+  let tmp = "";
+  ar1 = list1
+  ar2 = list2
+  arr = ar1.concat(ar2);
+
+  //Sort
+  arr.sort();
+//   for(let i=0; i<arr.length;i++){
+//     if(arr[i] < arr[i+1]){
+//         tmp = arr[i];
+//         arr[i] = arr[i+1];
+//         arr[i+1] = tmp;
+//     }
+//   }
+  return arr;
+};
+console.log(mergeTwoLists([1,2,4],[2,5,6]));

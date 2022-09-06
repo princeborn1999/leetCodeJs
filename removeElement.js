@@ -11,6 +11,7 @@ var removeElement = function (nums, val) {
     }
   }
   console.log(arr);
+  //output有問題
 };
 
 removeElement([2, 3, 3, 2], 2);
