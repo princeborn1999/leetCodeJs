@@ -5,13 +5,14 @@
  */
 var removeElement = function (nums, val) {
   let arr = nums;
+  
   for (a of arr) {
     if (a == val) {
-      arr.splice(a, 1);
+      arr.splice(arr.indexOf(a),1);      
     }
   }
   console.log(arr);
-  //output有問題
+  return(arr);
 };
 
-removeElement([2, 3, 3, 2], 2);
+removeElement([2,3,3,2], 2);
