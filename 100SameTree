@@ -1,0 +1,7 @@
+var isSameTree = function(p, q) {
+    return(JSON.stringify(p)==JSON.stringify(q));
+};
+
+p=[1,2,3];
+q=[1,2,3];
+console.log(isSameTree(p,q));

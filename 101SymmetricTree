@@ -1,0 +1,5 @@
+var isSymmetric = function(root) {
+    root.val
+};
+
+//卡住有解 左子樹的左邊 對上 右子樹的右邊
